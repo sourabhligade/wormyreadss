@@ -11,9 +11,11 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 
 
-import dj_database_url
+
 from pathlib import Path
 import os
+import dj_database_url 
+
 
 
 
@@ -30,7 +32,7 @@ SECRET_KEY = 'django-insecure-a4erx610(nc*2&_6wu1ng-&&f3eqrae^y)p^1+atht#*oiff4d
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get('DEBUG', 'False') == 'True'
 
-ALLOWED_HOSTS=['*']
+ALLOWED_HOSTS = ['wormyreads.onrender.com', '127.0.0.1', 'localhost']
 
 # Application definition
 
@@ -45,6 +47,7 @@ INSTALLED_APPS = [
     'django_extensions',
 
 ]
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
