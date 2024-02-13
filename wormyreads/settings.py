@@ -13,12 +13,7 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 
 
 from pathlib import Path
-<<<<<<< HEAD
 import os 
-=======
-import os
-import dj_database_url 
->>>>>>> df20e854cc862981e2eb0c9fcba18cab535cd232
 
 
 
@@ -34,13 +29,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-a4erx610(nc*2&_6wu1ng-&&f3eqrae^y)p^1+atht#*oiff4d'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = os.environ.get('DEBUG', 'False') == 'True'
 
-<<<<<<< HEAD
-ALLOWED_HOSTS = ['*']
-=======
 ALLOWED_HOSTS = ['wormyreads.onrender.com', '127.0.0.1', 'localhost']
->>>>>>> df20e854cc862981e2eb0c9fcba18cab535cd232
 
 # Application definition
 
