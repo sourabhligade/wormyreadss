@@ -1,16 +1,24 @@
-Wormyreadss: A Django-Based Book Review Platform 
-![Homepage of Wormyreads](wormyreadss/media/covers/homepage.png "Wormyreads Homepage")
+[Wormyreads: A Django-Based Book Review Platform](https://wormyreads.onrender.com)
 
 Wormyreads is a cutting-edge, Django-based book review platform deployed on Render, designed to provide users with an immersive and interactive experience as they explore, review, and manage their book wishlists. This project demonstrates a comprehensive application of full-stack development principles, from frontend design to backend efficiency, directly integrated with Render's PostgreSQL database for robust data management. Here's a snapshot of its core features and technological innovations:
 
 Adaptable UI/UX Design: The platform boasts a responsive and user-friendly interface, ensuring a seamless experience across various devices.
+
 Wishlist Integration: Users can easily add or remove books from their personal wishlists, enhancing the personalized browsing experience.
+
 Streamlined Review Management: Utilizes Django ORM and REST APIs for efficient data flow and management of book reviews.
+
 Seamless Version Control with Git: Ensures disciplined and reliable development updates, maintaining code integrity and facilitating collaboration.
+
 Optimized Server Performance: Incorporates Gunicorn for server efficiency and Whitenoise for static content delivery, ensuring fast and reliable access.
+
 Enhanced Backend Functionality: Benefits from Django Extensions and django-crispy-forms for advanced backend operations and refined form handling.
+
 Secure Configuration Management: Employs environs for environment variable management, bolstering the platform's security posture.
+
 Comprehensive Tech Stack: Developed using Python, Django, JavaScript, PostgreSQL (Render), HTML, CSS, Django REST Framework, django-extensions, environs, Pillow, python-dotenv, Gunicorn, and Whitenoise.
+
+Setting Up Wormyreads Locally
 
 ### 1. Clone the Repository
 To clone the repository, use the following corrected command in your terminal:
