@@ -1,3 +1,4 @@
+{% load static %}
 {% block content %}
     <h1>{{ request.user.username }}'s Wishlist</h1>
     {% if wishlist.books.all %}
